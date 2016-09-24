@@ -3,14 +3,14 @@
 /* Responsiveness strategy: Design for medium desktop and adapt it to breakpoints later */
 
 body {
-	background-color: #fff;
-	color: #333;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: #e7f4fc;
+	color: #1d3960;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1em;
 }
 
 a {
-	text-decoration: none;
+	/*text-decoration: none;*/
 }
 
 a:link {
@@ -55,17 +55,22 @@ a:active {
 
 #menu-wrapper {
 	height: 44px;
-	background-color: cyan;
+	background-color: #b2d3e8;
 }
 
 /* Welcome */
 
 #welcome-wrapper {
-	background-color: cyan;
+	background-color: #b2d3e8;
 }
 
 #welcome {
 	min-height: 540px;
+	text-align: center;
+}
+
+#welcome .logo {
+	margin-top: 72px;
 }
 
 /* Therapists */
@@ -75,7 +80,57 @@ a:active {
 }
 
 #therapists {
+	padding: 2em 0; 
+}
 
+.therapist {
+	width: 49%;
+	text-align: center;
+	float: left;
+}
+
+.therapist h1 {
+	font-size: 1.75em;
+}
+
+.therapist p {
+	padding: 0 4em;
+	font-size: 1.0625em;
+}
+
+.therapist ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.therapist li {
+	font-size: 85%;
+	font-weight: bold;
+	padding: .1em 0;
+}
+
+.therapist .email {
+	font-size: 110%;
+}
+
+.therapist .quote {
+	font-family: Georgia;
+	font-size: 108%;
+}
+
+/* Dente de leão */
+
+.d1 {
+	-ms-transform: rotate(-15deg); /* IE 9 */
+	-webkit-transform: rotate(-15deg); /* Safari */
+	transform: rotate(-15deg);
+}
+
+.d2 {
+	-ms-transform: rotate(5deg); /* IE 9 */
+	-webkit-transform: rotate(5deg); /* Safari */
+	transform: rotate(5deg);
 }
 
 /* Footer */
@@ -83,7 +138,6 @@ a:active {
 footer {
 	text-align: center;
 	display: block;
-	font-size: .8125em;
 	padding: 2em 0;
 }
 
@@ -95,10 +149,15 @@ footer .made {
 	display: block;
 	padding: 50px 0 0 0;
 	color: #646464;
+	font-size: .8125em;
 }
 
 footer .made .heart {
 	color: #d40000;
+}
+
+footer .made img {
+	vertical-align: middle;
 }
 
 /* ---------------------------- */
@@ -115,7 +174,31 @@ footer .made .heart {
 	/* Welcome */
 
 	#welcome {
-		padding-top: 69px;
+		min-height: auto;
+		padding-bottom: 120px;
+	}
+
+	#welcome .logo {
+		max-width: 100%; /* img-responsive */
+		height: auto; /* img-responsive */
+	}
+
+	/* Therapist */
+
+	.therapist {
+		width: 100%;
+		float: none;
+		display: block;
+	}
+
+	.therapist p {
+		padding: 0 1em;
+		font-size: 1.125em;
+	}
+
+	.therapist li {
+		font-size: 95%;
+		padding: .1em .5em;
 	}
 
 	/* Footer */
