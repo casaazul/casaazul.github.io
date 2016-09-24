@@ -1,0 +1,156 @@
+/* main.css */
+
+/* Responsiveness strategy: Design for medium desktop and adapt it to breakpoints later */
+
+body {
+	background-color: #fff;
+	color: #333;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #000080;
+}
+
+a:hover {
+	color: #000080;
+}
+
+a:visited {
+}
+
+a:active {
+}
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+*:focus {
+	outline: none !important
+}
+
+/* Container */
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/* Main header */
+
+#menu-wrapper {
+	height: 44px;
+	background-color: cyan;
+}
+
+/* Welcome */
+
+#welcome-wrapper {
+	background-color: cyan;
+}
+
+#welcome {
+	min-height: 540px;
+}
+
+/* Therapists */
+
+#therapists-wrapper {
+
+}
+
+#therapists {
+
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+	display: block;
+	font-size: .8125em;
+	padding: 2em 0;
+}
+
+footer .item {
+	margin: 0 1em;
+}
+
+footer .made {
+	display: block;
+	padding: 50px 0 0 0;
+	color: #646464;
+}
+
+footer .made .heart {
+	color: #d40000;
+}
+
+/* ---------------------------- */
+/* Media queries                */
+/* ---------------------------- */
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 767px) {
+
+	.container {
+		width: 92%;
+	}
+
+	/* Welcome */
+
+	#welcome {
+		padding-top: 69px;
+	}
+
+	/* Footer */
+
+	footer .item {
+		display: block;
+		text-align: center;
+		font-size: 1.25em;
+		padding: .5em 0;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	/* Default strategy */
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/* Media queries utils */
+
+@media only screen and (max-width : 479px) {
+
+	.xs-hidden {
+		display: none;
+	}
+}
