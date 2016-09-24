@@ -10,7 +10,6 @@ body {
 }
 
 a {
-	/*text-decoration: none;*/
 }
 
 a:link {
@@ -18,7 +17,7 @@ a:link {
 }
 
 a:hover {
-	color: #000080;
+	color: #1f4b87;
 }
 
 a:visited {
@@ -74,10 +73,6 @@ a:active {
 }
 
 /* Therapists */
-
-#therapists-wrapper {
-
-}
 
 #therapists {
 	padding: 2em 0; 
