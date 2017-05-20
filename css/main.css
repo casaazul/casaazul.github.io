@@ -105,8 +105,12 @@ a:active {
 	padding: .1em 0;
 }
 
+.therapist .whatsapp {
+	vertical-align: bottom;
+}
+
 .therapist .email {
-	font-size: 110%;
+	font-size: 91%;
 }
 
 .therapist .quote {
