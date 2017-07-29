@@ -5,7 +5,7 @@
 body {
 	background-color: #e7f4fc;
 	color: #1d3960;
-	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1em;
 }
 
@@ -50,26 +50,20 @@ a:active {
 	width: 960px;
 }
 
-/* Main header */
-
-#menu-wrapper {
-	height: 44px;
-	background-color: #b2d3e8;
-}
-
 /* Welcome */
 
-#welcome-wrapper {
-	background-color: #b2d3e8;
-}
-
 #welcome {
-	min-height: 540px;
 	text-align: center;
 }
 
 #welcome .logo {
-	margin-top: 72px;
+	margin: 3em 0 1em 0;
+}
+
+#welcome h1 {
+	color: #235ec4;
+	font-size: 1.25em;
+	font-weight: 400;
 }
 
 /* Therapists */
@@ -174,7 +168,6 @@ footer .made img {
 
 	#welcome {
 		min-height: auto;
-		padding-bottom: 120px;
 	}
 
 	#welcome .logo {
